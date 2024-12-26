@@ -1,16 +1,81 @@
-Project Overview
-This project focuses on developing a machine learning model to predict whether an Airbnb listing will have availability. The dataset includes various features related to the listings, hosts, and reviews. Accurately forecasting availability aims to enhance the guest experience, optimize host management, and improve the overall efficiency of the Airbnb platform.
+# Predicting Airbnb Availability
 
-Technologies Used* 
-- Data Collection & Preparation**: pandas  
-- Machine Learning: scikit-learn  
-- Natural Language Processing (NLP): spaCy, NLTK  
-- Data Visualization: matplotlib, seaborn, plotly
+This program is designed to predict whether an Airbnb listing is available using machine learning techniques. The project leverages feature engineering, data preprocessing, and supervised learning models to achieve accurate predictions.
 
-Significance of the Problem  
+## Features
 
-- Enhanced Guest Experience: By ensuring guests only view available listings, the model minimizes frustration, leading to a smoother and more satisfying booking experience.
-- Optimized Host Operations: Helps hosts better manage their listings, enabling them to develop strategies to increase occupancy rates and streamline their processes.
-- Platform Efficiency: Improves the search algorithm, leading to more accurate search results, higher conversion rates, and better resource utilization.
-- Revenue Growth: Boosting occupancy rates leads to higher revenue for both Airbnb and hosts, maximizing profitability.
-- Strategic Insights: Offers actionable insights into the factors that affect availability, allowing hosts to make data-driven decisions to improve their listings' performance.
+- **Data Preprocessing:** Handles missing data, encodes categorical variables, and scales numerical features for optimal model performance.
+- **Feature Engineering:** Extracts relevant features to improve prediction accuracy.
+- **Modeling:** Trains and evaluates supervised learning models to predict Airbnb availability.
+- **Visualization:** Includes plots to analyze data trends and model performance.
+
+## Requirements
+
+To run the notebook, you need the following dependencies:
+
+- Python 3.7+
+- Jupyter Notebook or JupyterLab
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
+
+Install the required libraries using the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/airbnb-availability-predictor.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd airbnb-availability-predictor
+   ```
+
+3. Launch Jupyter Notebook:
+
+   ```bash
+   jupyter notebook Listings_Availability.ipynb
+   ```
+
+4. Run the cells in the notebook sequentially to:
+
+   - Load and preprocess the data
+   - Perform exploratory data analysis (EDA)
+   - Train and evaluate machine learning models
+
+## Dataset
+
+The dataset includes Airbnb listings with various features such as location, price, and previous booking history. These attributes are used to predict the availability status of a listing.
+
+> **Note:** Ensure you have the required dataset in the specified location before running the notebook. Replace the placeholder path in the notebook with your actual dataset path.
+
+## Results
+
+The notebook provides:
+
+- A detailed analysis of features impacting availability.
+- Performance metrics (e.g., accuracy, precision, recall) of the trained models.
+- Visualizations to understand data distribution and model predictions.
+
+## Contributing
+
+Contributions are welcome! If you have ideas for improving the project or adding new features, feel free to submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Acknowledgments
+
+- Inspiration from Airbnb's open data initiative.
+- Tools and libraries used in this project, such as scikit-learn and pandas.
