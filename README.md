@@ -77,5 +77,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Acknowledgments
 
-- Inspiration from Airbnb's open data initiative.
-- Tools and libraries used in this project, such as scikit-learn and pandas.
+Thank you to my mentors at MIT for all their support throughout this learning process!
